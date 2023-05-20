@@ -1,5 +1,7 @@
 # Bitcoin Lightning Setup Intstructions
 
+Brought to you by [Beaver Bitcoin](www.beaverbitcoin.com)
+
 ## Important Resources
 
 * [Setting up Bitcoin lightning Network Node on AWS - Bolaj](https://thebolaji.hashnode.dev/setting-up-bitcoin-lightning-network-node-on-aws)
