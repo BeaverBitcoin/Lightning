@@ -34,5 +34,9 @@ Brought to you by [Beaver Bitcoin](www.beaverbitcoin.com)
 ## Setting up a channel
 
 1. It is recommended to use the ranking on [Lightning Engineering's Ranks](https://terminal.lightning.engineering/)
-    1. If you go to a given node (For example, [Wallet of Satoshi](https://terminal.lightning.engineering/035e4ff418fc8b5554c5d9eea66396c227bd429a3251c8cbc711002ba215bfc226/)), it will have the connect instructions listed.
-        1. `lncli connect 035e4ff418fc8b5554c5d9eea66396c227bd429a3251c8cbc711002ba215bfc226@170.75.163.209:9735`
+    1. If you go to a given node (For example, [Kraken](https://terminal.lightning.engineering/02f1a8c87607f415c8f22c00593002775941dea48869ce23096af27b0cfdcc0b69/)), it will have the connect instructions listed.
+        1. `lncli connect 02f1a8c87607f415c8f22c00593002775941dea48869ce23096af27b0cfdcc0b69@52.13.118.208:9735`
+        1. `lncli newaddress p2tr`
+        1. Send some sats to your wallet address which can be listed with `lncli wallet addresses list`
+        1. Open a channel with `lncli openchannel 02f1a8c87607f415c8f22c00593002775941dea48869ce23096af27b0cfdcc0b69 <SATS>`
+1. And you're good to go!!
